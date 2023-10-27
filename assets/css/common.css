@@ -89,3 +89,8 @@ a{
     color: rgb(12, 80, 255);
     text-decoration: none;
 }
+
+.footer {
+    text-align: center;
+    color: #fff;
+}
