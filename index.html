@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Mathildeuh.fr</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/common.css">
+    <script defer src="assets/js/main.js"></script>
+</head>
+
+<body>
+
+    <div class="main">
+
+        <pre class="yellow">
+___  ___      _   _     _ _     _            _     
+|  \/  |     | | | |   (_) |   | |          | |    
+| .  . | __ _| |_| |__  _| | __| | ___ _   _| |__  
+| |\/| |/ _` | __| '_ \| | |/ _` |/ _ \ | | | '_ \ 
+| |  | | (_| | |_| | | | | | (_| |  __/ |_| | | | |
+\_|  |_/\__,_|\__|_| |_|_|_|\__,_|\___|\__,_|_| |_|
+            
+        </pre>
+
+        <p class="command"><span class="green">mathildeuh@deb:~$</span> whoami</p>
+        <div class="result">
+            <p><span class="red">Name:</span>&nbsp;&nbsp;&nbsp;&nbsp;Mathilde</p>
+            <p><span class="red">Age:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;17</p>
+            <p><span class="red">Job:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Student (Future Epitech Student)</p>
+            <p><span class="red">Lang:</span>&nbsp;&nbsp;&nbsp;&nbsp;French, English</p>
+
+        </div>
+
+        <p class="command"><span class="green">mathildeuh@deb:~$</span> ls -lah</p>
+        <div class="result">
+            <p>drwxr-xr-x 1 mathildeuh mathildeuh 4.0K oct. 27 22:19 .</p>
+            <p>drwxr-xr-x 6 mathildeuh mathildeuh 4.0K oct. 27 22:19 ..</p>
+            <p>drwxr-xr-x 4 mathildeuh mathildeuh 4.0K oct. 27 22:19 knowledges</p>
+            <p>drwxr-xr-x 2 mathildeuh mathildeuh 4.0K oct. 27 22:19 <a href="admin-only.html">admin-only</a></p>
+            <p>drwxr-xr-x 2 mathildeuh mathildeuh 4.0K oct. 27 22:19 contact</p>
+            <p>drwxr-xr-x 2 mathildeuh mathildeuh 4.0K oct. 27 22:19 projects</p>
+        </div>
+
+        <p class="command"><span class="green">mathildeuh@deb:~$</span> cd knowledges/</p>
+
+        <p class="command"><span class="green">mathildeuh@deb:~/knowledges$</span> head -n 4 skills</p>
+        <div class="result">
+            <p style="font-weight: bold;">Programming languages:</p>
+            <p>JAVA, PYTHON, HTML, CSS, (SOON) C</p>
+            <!-- <p style="font-weight: bold;">Others :</p>
+            <p>VPN, PROXY, VIRTUALISATION, FIREWALL, DNS, ...</p> -->
+        </div>
+
+        <p class="command"><span class="green">mathildeuh@deb:~/knowledges$</span> mysql -u root -p</p>
+        <div class="result">
+        <p class="command">Enter password:<br><br>
+            Welcome to the MariaDB monitor.  Commands end with ; or \g.<br>
+            Your MariaDB connection id is 123<br>
+            Server version: 20.8.14-MariaDB Debian 12<br>
+            Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.<br><br>
+            Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.</p>
+
+        </div>
+        <p class="command"><span class="red">MariaDB [(none)]></span> use informations;</p>
+        <p class="command"><span class="red">MariaDB [informations]></span> SELECT * FROM socials;</p>
+        <div class="result">
+            <p>+----+---------+--------------------+<br> | id | Name&nbsp;&nbsp;&nbsp; | Link&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |<br> +----+---------+--------------------+
+                <br> | 1&nbsp; | GitHub&nbsp; | <a href="https://github.com/Mathildeuh">Mathildeuh</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br> +----+---------+--------------------+
+                <br> | 2&nbsp; | &nbsp;Insta&nbsp; | <a href="https://www.instagram.com/mathilde.narc/">Mathilde.Narc</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br> +----+---------+--------------------+
+                <br> | 3&nbsp; | Twitter | <a href="https://twitter.com/MathilOriginale">MathilOriginale</a>&nbsp;&nbsp;&nbsp;&nbsp;| <br> +----+---------+--------------------+
+                <br> | 4&nbsp; | Discord | <a href="https://discordapp.com/users/921104249885175809">Mathildeuh</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |<br> +----+---------+--------------------+
+                <br> 4 rows in set (0.03 sec)</p>
+        </div>
+
+        <p class="command"><span class="red">MariaDB [informations]></span> exit</p>
+
+        <p class="command"><span class="green">mathildeuh@deb:~$</span> <input type="text"><span id="prompt">_</span> </p>
+
+    </div>
+
+</body>
+
+</html>
